@@ -1,76 +1,75 @@
-# DSA-Engineering – Semester 3
+# 📘 DSA-Engineering (Semester 3)
 
-This repository contains all **lab work files and assignments** for the
-**Data Structures and Algorithms (DSA)** course of **Semester 3**.
+A collection of all **lab work**, **assignments**, and **practice files** for the **Data Structures and Algorithms (DSA)** course — Semester 3.
+
+This repository contains implementations and solutions for common DSA topics using C / C++.
 
 ---
 
-## 🎯 Purpose
+## 📌 Contents
+
+The project includes a variety of data structure and algorithm programs such as:
+
+### 📁 Data Structures
+- Linked List
+- Doubly Linked List
+- Circular Linked List
+- Stack
+- BST (Binary Search Tree)
+- Hashing
+- Open Hashing
+
+### 📁 Algorithms
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+
+### 📁 Labs & Assignments
+- Lab 01: Searching Algorithms
+- Lab 02: Linked List
+- Lab 03: Hashing
+- More core DSA lab exercises
+
+Each folder typically contains the implementation, and sometimes sample input/output for practice.
+
+---
+
+## 📋 Purpose
 
 This repository is created to:
 
-* Store **all DSA lab work**
-* Practice **core data structure concepts**
-* Serve as a reference for **exams and revisions**
+✔ Store all DSA lab work and source code  
+✔ Practice core data structure concepts  
+✔ Serve as a revision/reference for exams and interviews  
+✔ Improve problem-solving skills using classic DSA techniques :contentReference[oaicite:0]{index=0}
 
 ---
 
-## 📁 Lab Structure
+## 🧠 Concepts Covered
 
-### 🔹 Lab 1: Searching Algorithms
-
-This lab covers basic searching techniques:
-
-* **Linear Search**
-
-  * Searches an element sequentially
-  * Simple and easy to understand
-* **Binary Search**
-
-  * Works on sorted data
-  * Faster than linear search
-* **Occurrence Count**
-
-  * Counts how many times a given element appears in the data
-
-📌 Concepts covered:
-
-* Comparison-based searching
-* Practical use cases
-
----
-
-### 🔹 Lab 2: Linked List
-
-This lab focuses on **Singly Linked List** implementation.
-
-Implemented methods:
-
-* `insert()` → Insert a new node into the list
-* `delete()` → Remove a node by value
-* `search()` → Find an element in the list
-* `display()` → Print all elements of the list
-
-📌 Concepts covered:
-
-* Dynamic memory allocation
-* Pointers and node traversal
-* List manipulation operations
+- Dynamic memory allocation
+- Linked list operations
+- Hashing and collision resolution
+- Sorting algorithms
+- Tree structures (BST)
+- Stack & Queue logic
 
 ---
 
 ## 🛠️ Technologies Used
 
-* C / C++
-* Basic DSA concepts
-* Console-based programs
+- **C++**
+- **C**
+- Basic console-based programming
 
-
-## 📌 Author
-
-**Ahmed Ullah**
-DSA – Semester 3
+These programs are written in simple, readable C / C++ style suitable for learning and exam preparation. :contentReference[oaicite:1]{index=1}
 
 ---
 
+## 🧑‍💻 How to Run
 
+To compile and run any C++ program:
+
+```bash
+g++ filename.cpp -o program
+./program
